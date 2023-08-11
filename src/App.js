@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { CharacterDetail } from './components/CharacterDetail';
+import { CharacterList } from './components/CharacterList';
+import { VisualizationContainer } from './components/Visualization';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex-container">
+      <div className="large-block">
+        <CharacterList/>
+      </div>
+      <div className="column">
+        <div className="block">
+          <CharacterDetail/>
+        </div>
+        <div className="block viz-block">
+          <VisualizationContainer/>
+        </div>
+      </div>
     </div>
   );
 }
