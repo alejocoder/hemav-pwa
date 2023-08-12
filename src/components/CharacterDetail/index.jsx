@@ -15,11 +15,10 @@ export const CharacterDetail = () => {
       );
       const data = await response.json();
       setSelectedCharacter(data);
-      console.log(data);
     }
-
+    console.log(selectedCharacter);
     fetchData();
-  }, [selectedCharacter, selectedCharacterID]);
+  }, [selectedCharacterID]);
 
   return (
     <div className="character-card">

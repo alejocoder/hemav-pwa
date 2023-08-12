@@ -50,3 +50,10 @@
     flex-direction: column;
   }
 }
+
+@media (min-width: 577px) and (max-width: 768px) { 
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+  }
+ }
