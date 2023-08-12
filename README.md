@@ -16,18 +16,21 @@ To download the project code, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/hemav-pwa.git
-
+```
 
 Replace your-username with your GitHub username.
 
 ### Installing Dependencies
 After downloading the code, navigate to the project directory:
 
+```bash
 cd hemav-pwa
-
+```
 Next, install the project dependencies using npm:
 
+```bash
 npm install
+```
 
 This command will install the required dependencies listed in the package.json file.
 
@@ -35,7 +38,9 @@ This command will install the required dependencies listed in the package.json f
 
 With the dependencies installed, you can run the "hemav-pwa" project using the following command:
 
+```bash
 npm start
+```
 
 This command will start the development server and automatically open the project in your default web browser. Any code changes will trigger a browser refresh.
 
